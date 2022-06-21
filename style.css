@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #01363d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.clock {
+  display: inline;
+  background-color:  #195d66;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  padding: 0px 10px;
+}
