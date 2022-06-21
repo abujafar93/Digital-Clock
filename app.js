@@ -22,8 +22,6 @@ const dateNow = () => {
   
   const todayDate = dateFns.format(now, 'dddd, MMMM Do YYYY');
 
-  console.log(todayDate);
-
   const html = `<span> ${todayDate} </span>`
 
   dateToday.innerHTML = html
