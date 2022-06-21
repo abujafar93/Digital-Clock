@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 200px auto;
+  margin: 100px auto 100px auto;
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.clock {
+.clock, .date {
   display: inline;
   background-color:  #195d66;
   text-align: center;
@@ -33,4 +33,11 @@ h2 {
 
 span {
   padding: 0px 10px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

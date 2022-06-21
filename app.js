@@ -1,9 +1,10 @@
-const clock = document.querySelector('.clock')
-
+const clock = document.querySelector('.clock');
+const dateToday = document.querySelector('.date');
+const now = new Date();
 
 const tick = () => {
 
-  const now = new Date();
+  
 
   const hour = now.getHours();
   const min = now.getMinutes();
@@ -17,3 +18,16 @@ const tick = () => {
 }
 
 setInterval(tick, 1000)
+
+const dateNow = () => {
+  
+  const todayDate = dateFns.format(now, 'dddd, MMMM Do YYYY');
+
+  console.log(todayDate);
+
+  const html = `<span> ${todayDate} </span>`
+
+  dateToday.innerHTML = html
+};
+
+dateNow();
