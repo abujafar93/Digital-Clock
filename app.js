@@ -30,4 +30,5 @@ const dateNow = () => {
   dateToday.innerHTML = html
 };
 
+setInterval(dateNow, 1000)
 dateNow();
